@@ -7,7 +7,7 @@ Este proyecto es un *pipeline* completo de Ciencia de Datos y Machine Learning d
 A diferencia de modelos tradicionales que intentan predecir directamente al campeón (lo cual genera un desbalance masivo de clases), este modelo estocástico evalúa las probabilidades de victoria a nivel de **partido individual**. Utilizando un algoritmo de **XGBoost** calibrado, el modelo alimenta una simulación de **Monte Carlo (10,000 iteraciones)** adaptada al nuevo formato expansivo de 48 selecciones.
 
 ## Características Principales (Feature Engineering)
-* **Web Scraping Dinámico:** Extracción de datos en vivo evadiendo bloqueos anti-bot (Calidad de plantilla y PIB PPA).
+* **Web Scraping Dinámico:** Extracción de datos en vivo evadiendo bloqueos anti-bot (se recomienda ejecutar desde Visual Studio Code ya que al ejecutar en Google Colab podría presentar bloqueos de scrap dependiendo de la concurrencia de la aplicación).
 * **Motor Matemático ELO:** Cálculo iterativo y cronológico del rating ELO desde cero usando resultados desde el año 2000.
 * **Time Decay:** Función de decaimiento exponencial para restar peso predictivo a partidos antiguos.
 * **Momentum Deportivo:** Cálculo de la racha de rendimiento en los últimos 5 encuentros.

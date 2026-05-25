@@ -21,4 +21,5 @@ El proyecto está consolidado para su fácil ejecución y auditoría académica:
 ├── Mundial.ipynb                # Cuaderno Jupyter maestro (Pipeline End-to-End)
 ├── requirements.txt             # Dependencias del proyecto
 ├── README.md                    # Documentación
-└── El Oráculo del Balón.pdf     # Reporte técnico detallado (Análisis y Limitaciones)
+└── El Oráculo del Balón.docx    # Reporte técnico detallado (Análisis y Limitaciones) en formato docx
+└── El Oráculo del Balón.pdf     # Reporte técnico detallado (Análisis y Limitaciones) en formato pdf
